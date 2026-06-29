@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: '홈 클리닝 시스템',
   description: '체계적인 집안 청소 관리 앱',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
